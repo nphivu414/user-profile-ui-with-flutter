@@ -28,7 +28,6 @@ class ProfileScreenState extends State<ProfileScreen> {
       length: 3,
       child: Container(
         child: NestedScrollView(
-          physics: const AlwaysScrollableScrollPhysics(),
           headerSliverBuilder: (context, value) {
             return [
               ProfileCover(),
